@@ -6,9 +6,9 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Software Developer",
-          "Freelancer",
-          "MERN Stack Developer",
+          "Backend Developer",
+          "AI/ML Engineer",
+          "Electronics Enthusiast",
           "Open Source Contributor",
         ],
         autoStart: true,
