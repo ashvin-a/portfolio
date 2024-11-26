@@ -1,6 +1,9 @@
 name: Deploy Portfolio 🚀
 
 on:
+  push:
+    branches:
+      - develop
   pull_request:
     branches:
       - develop  # Trigger the workflow on pushes to the main branch
