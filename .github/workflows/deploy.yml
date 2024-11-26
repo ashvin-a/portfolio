@@ -1,0 +1,36 @@
+name: Deploy Portfolio 🚀
+
+on:
+  pull_request:
+    branches:
+      - develop  # Trigger the workflow on pushes to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+        matrix:
+            node-version: [14.x, 16.x, 18.x]
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Step 2: Set up Node.js
+    - name: Set up Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    - run: npm ci
+    - run: npm run build --if-present
+    - run: npm ci
+    # Step 3: Install dependencies
+    - name: Install dependencies
+      run: npm install
+
+    # Step 5: Deploy to GitHub Pages
+    - name: Deploy 
+      uses: JamesIves/github-pages-deploy-actions@v4
+      with:
+        folder: build
