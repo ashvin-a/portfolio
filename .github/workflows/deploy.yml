@@ -7,33 +7,41 @@ on:
   pull_request:
     branches:
       - develop  # Trigger the workflow on pushes to the main branch
-
+permissions:
+  pages: write
+  id-token: write
+  contents: read
+  
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-        matrix:
-            node-version: [14.x, 16.x, 18.x]
+    # strategy:
+    #     matrix:
+    #         node-version: [14.x, 16.x, 18.x]
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     # Step 2: Set up Node.js
-    - name: Set up Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+    # - name: Set up Node.js ${{ matrix.node-version }}
+    - name: Set up Node.js 20
+      uses: actions/setup-node@v4
       with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm ci
-    # Step 3: Install dependencies
-    - name: Install dependencies
-      run: npm install
-
+        node-version: 20
+        # cache: 'npm'
+    - name: Install Dependencies
+      run: npm ci
+    - name: Build Project
+      run: npm run build
+    - name: Upload artifacts 
+      uses: actions/upload-pages-artifact@v3
+      with:
+        name: 'portfolio'
+        path: build
     # Step 5: Deploy to GitHub Pages
-    - name: Deploy 
-      uses: bitovi/github-actions-react-to-github-pages@v1.2.4
+    - name: Deploy to Github pages 
+      uses: actions/deploy-pages@v4
       with:
-        folder: build
+        token: ${{ secrets.GITHUB_TOKEN }}
+        artifact_name: 'portfolio'
