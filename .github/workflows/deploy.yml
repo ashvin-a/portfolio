@@ -34,6 +34,6 @@ jobs:
 
     # Step 5: Deploy to GitHub Pages
     - name: Deploy 
-      uses: MikeHamilton-RW/deploy-common-actions@v1.0
+      uses: bitovi/github-actions-react-to-github-pages@v1.2.4
       with:
         folder: build
