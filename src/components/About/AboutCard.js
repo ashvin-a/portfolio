@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,33 +7,22 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            I was born and raised in a bustling city called <span className="purple">Kazhakuttom</span>, situated at
+            Trivandrum, India.
+            <br/><br/>My schooling was done in MGM Central Public School. I completed my
+            undergraduate in <span className="purple">Electrical & Electronics Engineering</span>
+            &nbsp;from Government Engineering College, Barton Hill with a minor in <span className="purple">
+            Information Technology</span>. 
+            <br /><br/>
+            I am currently employed as an AI/ML engineer at <span className="purple">Qburst Technologies Pvt. Ltd</span>.
+            A day of mine would include a lot of research, experimentation and testing out new methodologies
+            and technologies to optimize performance.
             <br />
-            I am currently employed as a software developer at Juspay.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            My other interests include watching movies and anime (yeah I'm a nerd!) and watching science videos of Veritasium, VSauce, Electroboom, NileRed and the list goes on.......
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>
