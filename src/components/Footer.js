@@ -7,13 +7,10 @@ function Footer() {
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
-      <Row>
-        <Col md="4" className="footer-copywright">
-        </Col>
-        <Col md="4" className="footer-copywright">
+      <Row>   
+        <Col md="12" className="footer-copywright">
           <h3>Copyright © {year} SB</h3>
         </Col>
-        
       </Row>
     </Container>
   );

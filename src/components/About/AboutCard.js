@@ -9,8 +9,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             I was born and raised in a bustling city called <span className="purple">Kazhakuttom</span>, situated at
             Trivandrum, India.
-            <br/><br/>My schooling was done in MGM Central Public School. I completed my
-            undergraduate in <span className="purple">Electrical & Electronics Engineering</span>
+            <br/><br/>I completed my undergraduate in <span className="purple">Electrical & Electronics Engineering</span>
             &nbsp;from Government Engineering College, Barton Hill with a minor in <span className="purple">
             Information Technology</span>. 
             <br /><br/>

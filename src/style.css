@@ -156,7 +156,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #0b192c5b !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -413,7 +413,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: #0B192C;
+  background-color: #0B0814;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -567,12 +567,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid #FF6500 !important;
+  border: 1.7px solid #ff660000 !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(168, 81, 4, 0.137) !important;
+  /* box-shadow: 4px 5px 4px 3px rgba(168, 81, 4, 0) !important; */
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
