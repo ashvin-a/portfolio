@@ -14,9 +14,8 @@ function Projects() {
             <Particle />
             <Container>
                 <h1 className="project-heading">
-                    My Recent <strong className="purple">Works </strong>
+                    Selected <strong className="purple">Works </strong>
                 </h1>
-                <p style={{ color: 'white' }}>Here are a few projects I've worked on recently.</p>
                 <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
                     <Col md={4} className="project-card">
                         <ProjectCard
@@ -24,7 +23,7 @@ function Projects() {
                             isBlog={false}
                             title="AI Search Tool"
                             description="Developed an AI search tool for retreiving data related to UN Women for their website. Used latest technologies like RAG and Natural language to SQL to implement it."
-                            ghLink="Work Done as part of Qburst Technologies Pvt. Ltd."
+                            // ghLink="Work Done as part of Qburst Technologies Pvt. Ltd."
                             demoLink="https://open.unwomen.org/"
                         />
                     </Col>

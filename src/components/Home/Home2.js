@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import myImg from '../../Assets/main.png';
-import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from 'react-icons/ai';
+import { AiFillGithub, AiOutlineTwitter } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 
 function Home2() {
@@ -76,16 +76,6 @@ function Home2() {
                                     className="icon-colour  home-social-icons"
                                 >
                                     <FaLinkedinIn />
-                                </a>
-                            </li>
-                            <li className="social-icons">
-                                <a
-                                    href="https://www.instagram.com/ashvin_a_/profilecard"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="icon-colour home-social-icons"
-                                >
-                                    <AiFillInstagram />
                                 </a>
                             </li>
                         </ul>
