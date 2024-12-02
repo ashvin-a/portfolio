@@ -14,16 +14,19 @@ function Home2() {
                             LET ME <span className="purple"> INTRODUCE </span> MYSELF
                         </h1>
                         <p className="home-about-body">
-                            Hi! Im a tech & fitness enthusiast interested in
+                            A tech & fitness enthusiast interested in
                             <b className="purple"> Robotics, Electronics</b> and <b className="purple">Coding </b>.🤖📈
+                            <br />
+                            <br />
+                            Being influenced by <b className="purple">Dr.APJ Abdul Kalam</b>, my dream is to revolutionize the application of Robotics and Intelligent Systems in <b Indian className="purple">Indian Space Programs</b>.
+                            <br />
+                            <br />
+                            I'm known among my peers for my ability to formulate <b className="purple"> creative solutions </b>and <b className="purple">analytical skills</b>.
                             <br />
                             <br />I am fluent in programming languages such as
                             <i>
                                 <b className="purple"> Python, Javascript </b>and<b className="purple"> C++ </b>.
                             </i>
-                            <br />
-                            <br />
-                            I'm known among my peers for my ability to formulate <b className="purple"> creative solutions </b>and <b className="purple">analytical skills</b>.
                             <br />
                             <br />
                             During my free time, I often hang out with my friends, sometimes go for a solo ride, or learn new things and build cool projects.
@@ -44,9 +47,6 @@ function Home2() {
                 <Row>
                     <Col md={12} className="home-about-social">
                         <h1>FIND ME ON</h1>
-                        <p>
-                            Feel free to <span className="purple">connect </span>with me
-                        </p>
                         <ul className="home-about-social-links">
                             <li className="social-icons">
                                 <a

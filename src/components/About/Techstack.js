@@ -11,11 +11,13 @@ import {
 } from "react-icons/di";
 import {
   SiDocker,
-  SiRedis,
-  SiNextdotjs,
   SiPostgresql,
   SiDjango,
   SiFastapi,
+  SiFlask,
+  SiRaspberrypi,
+  SiArduino,
+  SiStmicroelectronics
 } from "react-icons/si";
 
 function Techstack() {
@@ -37,25 +39,28 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+      <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+      <SiRaspberrypi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+      <SiArduino />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+      <SiStmicroelectronics />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+      <SiFlask />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />

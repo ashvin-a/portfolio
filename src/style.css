@@ -83,7 +83,10 @@ button:focus {
   background: #FF6500;
   border-radius: 10px;
 }
-
+/* Contributions */
+.github-contrib{
+  color: #fff;
+}
 /* --------- */
 /* Navbar Section  */
 /* --------- */
@@ -157,6 +160,8 @@ button:focus {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
     background-color: #0b192c5b !important;
+    backdrop-filter: blur(15px) !important;
+
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -290,8 +295,13 @@ button:focus {
   font-size: 7em !important;
   padding-left: 45px !important;
   font-family: "Gilda Display", sans-serif;
-  font-weight: 10;
+  font-weight: 10;  
 }
+@media (max-width: 767px) {
+    .heading-name {
+      font-size: 4em !important;
+    }
+  }
 
 .main-name {
   color: #FF6500;
@@ -320,7 +330,7 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 6.5em;
 }
 
 @media (max-width: 767px) {
@@ -333,7 +343,7 @@ button:focus {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  padding-top: 40px !important;
 }
 
 .home-about-description {
@@ -351,8 +361,9 @@ button:focus {
 
 .home-about-social {
   text-align: center !important;
-  padding-top: 25px;
+  padding-top: 30px;
   color: white !important;
+  padding-bottom: -30px;
 }
 
 .home-about-social-links {
@@ -478,11 +489,13 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.4s ease 0s !important;
   height: 100% !important;
+  border-radius: 10px;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   border: 2.2px solid #FF6500;
+  border-radius: 10px;
 }
 
 .blog-card {
@@ -495,7 +508,7 @@ button:focus {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
+  box-shadow: 0 3px 3px 2px rgba(96, 71, 48, 0.459) !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -529,15 +542,15 @@ button:focus {
 }
 
 .btn-primary {
-  color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  color: #000000 !important;
+  background-color: #fff !important;
+  border-color: #fff !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background-color: #FF6500 !important;
+  border-color: #FF6500 !important;
 }
 .btn:focus {
   outline: none !important;
