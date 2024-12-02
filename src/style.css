@@ -300,6 +300,7 @@ button:focus {
 @media (max-width: 767px) {
     .heading-name {
       font-size: 4em !important;
+      padding-left: 35px
     }
   }
 
