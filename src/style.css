@@ -172,7 +172,7 @@ button:focus {
 }
 
 .logo {
-  height: 3.4em;
+  height: 3em;
   width: 4.5em;
 }
 
@@ -288,22 +288,34 @@ button:focus {
 
 .heading {
   font-size: 2.4em !important;
-  padding-left: 50px !important;
+  padding-left: 50px;
 }
 
 .heading-name {
-  font-size: 7em !important;
-  padding-left: 45px !important;
+  font-size: 7em;
+  padding-left: 45px;
   font-family: "Gilda Display", sans-serif;
   font-weight: 10;  
+  display: flex;
+  flex-wrap: wrap;
 }
 @media (max-width: 767px) {
     .heading-name {
-      font-size: 4em !important;
-      padding-left: 35px
+      font-size: 4em;
+      padding-left: 40px
+    }
+    .heading{
+      padding-left: 40px;
     }
   }
-
+@media (max-width: 400px) {
+  .heading-name {
+    padding-left: 20px
+  }
+  .heading{
+    padding-left: 20px;
+  }
+}
 .main-name {
   color: #FF6500;
 }
