@@ -87,6 +87,68 @@ button:focus {
 .github-contrib{
   color: #fff;
 }
+
+.contribution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.contrib-card{
+  padding: 10px;
+  font-size: 4.5em !important;
+  width: 200px;
+  margin: 15px !important;
+  opacity: 0.93 !important;
+  text-transform: capitalize;
+  border: 1.7px solid #ff660000 !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 10px !important;
+  display: table !important;
+  overflow: hidden !important;
+  transition: all 0.3s ease 0s !important;
+}
+
+/* Hover effect */
+.contrib-card:hover {
+  transform: scale(1.1) !important;
+  overflow: hidden !important;
+  border: 2.2px solid #FF6500 !important;
+}
+.contrib-projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Repository name */
+.contrib-repo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FF6500;/*  Orange text */
+  margin-bottom: 10px;
+}
+
+/* Contribution count */
+.contrib-count {
+  font-size: 1.2rem;
+  color: #fff; /* White text */
+}
+
+.contrib-count span {
+  font-weight: bold;
+  color: #FF6500; /* Orange highlight */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contrib-card {
+    width: 90%;
+  }
+}
+
 /* --------- */
 /* Navbar Section  */
 /* --------- */
@@ -295,7 +357,7 @@ button:focus {
   font-size: 7em;
   padding-left: 45px;
   font-family: "Gilda Display", sans-serif;
-  font-weight: 10;  
+  font-weight: 10;
   display: flex;
   flex-wrap: wrap;
 }

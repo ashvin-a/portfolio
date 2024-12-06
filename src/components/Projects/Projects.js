@@ -3,10 +3,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
 import leaf from '../../Assets/Projects/leaf.png';
-import emotion from '../../Assets/Projects/emotion.png';
+import cubesat from '../../Assets/Projects/cubesat.png';
 import editor from '../../Assets/Projects/codeEditor.png';
 import suicide from '../../Assets/Projects/suicide.png';
-import bitsOfCode from '../../Assets/Projects/ai-search.png';
+import ai_search from '../../Assets/Projects/ai-search.png';
 
 function Projects() {
     return (
@@ -19,7 +19,7 @@ function Projects() {
                 <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={bitsOfCode}
+                            imgPath={ai_search}
                             isBlog={false}
                             title="AI Search Tool"
                             description="Developed an AI search tool for retreiving data related to UN Women for their website. Used latest technologies like RAG and Natural language to SQL to implement it."
@@ -30,7 +30,7 @@ function Projects() {
             
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={emotion}
+                            imgPath={cubesat}
                             isBlog={false}
                             title="Attitude Determination and Control System of CubeSat"
                             description="Developed an Attitude determination and Control System for a 1U Cubesat using triple axis magnetorquer."
