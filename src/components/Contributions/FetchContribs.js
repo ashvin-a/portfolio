@@ -3,7 +3,8 @@ import axios from "axios";
 
 function Contributions({ owner, repo , username}) {
   const [contributions, setContributors] = useState(null);
-  
+  const [animatedCount, setAnimatedCount] = useState(0); 
+
   useEffect(() => {
     async function fetchContributors() {
       const token = process.env.REACT_APP_GITHUB_TOKEN;
@@ -28,11 +29,24 @@ function Contributions({ owner, repo , username}) {
     fetchContributors();
   }, [owner, repo, username]);
 
+  useEffect(() => {
+    if (contributions !== null) {
+      let count = 0;
+      const interval = setInterval(() => {
+        count++;
+        setAnimatedCount(count);
+        if (count === contributions) {
+          clearInterval(interval); // Stop animation when the count matches
+        }
+      }, 100); // Adjust speed by changing the interval time
+    }
+  }, [contributions]);
+
   return (
       <div className="contrib-card">
         <div className="contrib-repo">{repo}</div>
         <div className="contrib-count">
-          Contributions: <span>{contributions}</span>
+          Contributions: <span style={{fontSize:"25px"}}>{animatedCount}</span>
         </div>
       </div>
   );

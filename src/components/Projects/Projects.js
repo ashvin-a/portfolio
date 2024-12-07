@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
-import leaf from '../../Assets/Projects/leaf.png';
+import assistant from '../../Assets/Projects/assistant.svg';
 import cubesat from '../../Assets/Projects/cubesat.png';
 import editor from '../../Assets/Projects/codeEditor.png';
 import suicide from '../../Assets/Projects/suicide.png';
@@ -41,7 +41,7 @@ function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={leaf}
+                            imgPath={assistant}
                             isBlog={false}
                             title="L.I.L.L.Y"
                             description="Developed an assistant for keeping personal records such as diary entries, meeting schedules, and other events."
