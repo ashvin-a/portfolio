@@ -4,8 +4,8 @@ import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
 import assistant from '../../Assets/Projects/assistant.svg';
 import cubesat from '../../Assets/Projects/cubesat.png';
-import editor from '../../Assets/Projects/codeEditor.png';
-import suicide from '../../Assets/Projects/suicide.png';
+import slide_narrator from '../../Assets/Projects/slide-narrator.svg';
+import social_media from '../../Assets/Projects/social-media.svg';
 import ai_search from '../../Assets/Projects/ai-search.png';
 
 function Projects() {
@@ -35,7 +35,6 @@ function Projects() {
                             title="Attitude Determination and Control System of CubeSat"
                             description="Developed an Attitude determination and Control System for a 1U Cubesat using triple axis magnetorquer."
                             ghLink="https://github.com/Bartosat"
-                            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
                         />
                     </Col>
 
@@ -51,7 +50,7 @@ function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={editor}
+                            imgPath={slide_narrator}
                             isBlog={false}
                             title="Slide Narrator"
                             description="Developed a tool for converting presentation slides into a video explaining the slide. Used a combination of open source models from Huggingface."
@@ -61,12 +60,12 @@ function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={suicide}
+                            imgPath={social_media}
                             isBlog={false}
                             title="Social Media App"
                             description="Developed a fully functional social media application using Django for both frontend and backend."
                             ghLink="https://github.com/ashvin-a/Social-Media-App"
-                            demoLink="https://dj-social-media-app.vercel.app"
+                            demoLink="https://ashvin-social-media-app.vercel.app"
                         />
                     </Col>
                 </Row>

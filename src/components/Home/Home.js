@@ -30,7 +30,7 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} xd={4} className="d-flex justify-content-center align-items-center" style={{ paddingBottom: 20 }}>
+            <Col md={5} xd={4} className="d-flex justify-content-center align-items-top md-mt-2 ms-mt-4" style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
