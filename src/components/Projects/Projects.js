@@ -40,6 +40,17 @@ function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
+                            imgPath={social_media}
+                            isBlog={false}
+                            title="Social Media App"
+                            description="Developed a fully functional social media application using Django for both frontend and backend."
+                            ghLink="https://github.com/ashvin-a/Social-Media-App"
+                            demoLink="https://ashvin-social-media-app.vercel.app"
+                        />
+                    </Col>
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
                             imgPath={assistant}
                             isBlog={false}
                             title="L.I.L.L.Y"
@@ -55,17 +66,6 @@ function Projects() {
                             title="Slide Narrator"
                             description="Developed a tool for converting presentation slides into a video explaining the slide. Used a combination of open source models from Huggingface."
                             ghLink="https://github.com/ashvin-a/"
-                        />
-                    </Col>
-
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={social_media}
-                            isBlog={false}
-                            title="Social Media App"
-                            description="Developed a fully functional social media application using Django for both frontend and backend."
-                            ghLink="https://github.com/ashvin-a/Social-Media-App"
-                            demoLink="https://ashvin-social-media-app.vercel.app"
                         />
                     </Col>
                 </Row>
