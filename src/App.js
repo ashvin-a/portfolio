@@ -17,7 +17,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import { SpeedInsights } from "@vercel/speed-insights/react"
 function App() {
   const [load, updateLoad] = useState(true);
 
@@ -31,6 +31,7 @@ function App() {
 
   return (
     <Router>
+      <SpeedInsights/>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
