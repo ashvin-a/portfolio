@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-function Contributions({ owner, repo , username}) {
+function Contributions({ owner, repo , username, alias}) {
   const [contributions, setContributors] = useState(null);
   const [animatedCount, setAnimatedCount] = useState(0); 
 
@@ -44,7 +44,7 @@ function Contributions({ owner, repo , username}) {
 
   return (
       <div className="contrib-card">
-        <div className="contrib-repo">{repo}</div>
+        <div className="contrib-repo">{alias}</div>
         <div className="contrib-count">
           Contributions: <span style={{fontSize:"25px"}}>{animatedCount}</span>
         </div>
