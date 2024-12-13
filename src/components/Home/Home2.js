@@ -11,32 +11,22 @@ function Home2() {
                 <Row>
                     <Col md={8} className="home-about-description">
                         <h1 style={{ fontSize: '2.6em' }}>
-                            LET ME <span className="purple"> INTRODUCE </span> MYSELF
+                            Welcome to my world of <span className="purple">Innovation</span> and <span className="purple">Creativity</span>!
                         </h1>
                         <p className="home-about-body">
-                            A tech & fitness enthusiast interested in
+                            I'm a tech & fitness enthusiast interested in
                             <b className="purple"> Robotics, Electronics</b> and <b className="purple">Coding </b>.🤖📈
                             <br />
                             <br />
-                            Being influenced by <b className="purple">Dr.APJ Abdul Kalam</b>, my dream is to revolutionize the application of Robotics and Intelligent Systems in <b Indian className="purple">Indian Space Programs</b>.
+                            Inspired by the visionary<b className="purple"> Dr.APJ Abdul Kalam</b>, my dream is to revolutionize the application of Robotics and Intelligent Systems in <b Indian className="purple">Indian Space Programs</b>.
                             <br />
                             <br />
-                            I'm known among my peers for my ability to formulate <b className="purple"> creative solutions </b>and <b className="purple">analytical skills</b>.
-                            <br />
-                            <br />I am fluent in programming languages such as
-                            <i>
-                                <b className="purple"> Python, Javascript </b>and<b className="purple"> C++ </b>.
-                            </i>
+                            Known among my peers for my<b className="purple"> creativity </b>and <b className="purple">analytical skills</b>, I thrive on developing innovative solutions to complex challenges.
                             <br />
                             <br />
-                            During my free time, I often hang out with my friends, sometimes go for a solo ride, or learn new things and build cool projects.
+                            In my free time, you'll find me exploring new skills, building exciting projects, hanging out with friends, or embarking on a solo ride.
                             <br />
                             <br />
-                            My hobbies include weight lifting, photography and occasionally playing my piano and guitar. 
-                            <br />
-                            <br />
-                            <i>
-                            </i>
                         </p>
                     </Col>
                     <Col md={4} className="myAvtar">
