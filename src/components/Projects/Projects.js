@@ -22,7 +22,7 @@ function Projects() {
                             imgPath={ai_search}
                             isBlog={false}
                             title="AI Search Tool"
-                            description="Developed an AI search tool for retreiving data related to UN Women for their website. Used latest technologies like RAG and Natural language to SQL to implement it."
+                            description="Developed an AI search tool for retreiving data related to UN Women for their website. Used latest technologies like RAG and Natural language to SQL to implement it. This work was done with my team at Qburst Technologies."
                             demoLink="https://open.unwomen.org/ai-search"
                             // ghLink="Work Done as part of Qburst Technologies Pvt. Ltd."
                         />
