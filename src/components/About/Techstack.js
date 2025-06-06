@@ -1,4 +1,3 @@
-import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
@@ -7,17 +6,17 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
+  DiRust,
 } from "react-icons/di";
 import {
+  SiPytorch,
   SiDocker,
   SiPostgresql,
   SiDjango,
   SiFastapi,
   SiFlask,
   SiRaspberrypi,
-  SiArduino,
-  SiStmicroelectronics
+  SiArduino
 } from "react-icons/si";
 
 function Techstack() {
@@ -29,17 +28,23 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiDjango />
+       <Col xs={4} md={2} className="tech-icons">
+        <SiPytorch />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFastapi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiRust />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDjango />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
       <DiGit />
@@ -49,9 +54,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
       <SiArduino />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-      <SiStmicroelectronics />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
       <SiFlask />
@@ -64,9 +66,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
       </Col>
     </Row>
   );

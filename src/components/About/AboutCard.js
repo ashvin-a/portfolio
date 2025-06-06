@@ -7,8 +7,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            I was born and raised in a bustling city called <span className="purple">Kazhakuttom</span>, situated at
-            Trivandrum, India.
+            I was born and raised in <span className="purple">Kazhakuttom</span>, situated at
+            Kerala, India.
             <br/><br/>I completed my undergraduate in <span className="purple">Electrical & Electronics Engineering</span>
             &nbsp;from Government Engineering College, Barton Hill with a minor in <span className="purple">
             Information Technology</span>. 
@@ -19,14 +19,14 @@ function AboutCard() {
             <br />
             <br />
             I am proficient in programming languages like
-            <b className="purple"> Python, Javascript </b>and<b className="purple"> C++ </b>,
+            <b className="purple"> Python, Javascript </b>and<b className="purple"> Rust </b>,
             enabling me to bring my ideas to life through code.
             <br />
             <br />
             My hobbies include weightlifting, photography, and occasionally playing the piano and guitar, which help me strike a balance between work and play.
             <br />
             <br />
-            My other interests include watching movies and anime (yeah I'm a nerd!) and watching science videos of Veritasium, VSauce, Electroboom, NileRed and the list goes on.......
+            My other interests include playing badminton, watching movies and anime (yeah I'm a nerd!) and watching science videos of Veritasium, VSauce, Electroboom, NileRed and the list goes on.......
             <br />
           </p>
 

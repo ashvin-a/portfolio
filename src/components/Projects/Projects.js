@@ -3,10 +3,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
 import assistant from '../../Assets/Projects/assistant.svg';
-import cubesat from '../../Assets/Projects/cubesat.png';
+import cubesat from '../../Assets/Projects/cubesat.gif';
 import slide_narrator from '../../Assets/Projects/slide-narrator.svg';
 import social_media from '../../Assets/Projects/social-media.svg';
-import ai_search from '../../Assets/Projects/ai-search.png';
+import ai_search from '../../Assets/Projects/ai-search.gif';
 
 function Projects() {
     return (
@@ -55,7 +55,7 @@ function Projects() {
                             isBlog={false}
                             title="L.I.L.L.Y"
                             description="Developed an assistant for keeping personal records such as diary entries, meeting schedules, and other events."
-                            ghLink="https://github.com/ashvin-a/"
+                            ghLink="https://github.com/ashvin-a/L.I.L.L.Y"
                         />
                     </Col>
 
@@ -65,7 +65,7 @@ function Projects() {
                             isBlog={false}
                             title="Slide Narrator"
                             description="Developed a tool for converting presentation slides into a video explaining the slide. Used a combination of open source models from Huggingface."
-                            ghLink="https://github.com/ashvin-a/"
+                            ghLink="https://github.com/ashvin-a/slide-narrator"
                         />
                     </Col>
                 </Row>

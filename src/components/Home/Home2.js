@@ -14,14 +14,14 @@ function Home2() {
                             Welcome to my world of <span className="purple">Innovation</span> and <span className="purple">Creativity</span>!
                         </h1>
                         <p className="home-about-body">
-                            I'm a tech & fitness enthusiast interested in
+                            I'm a tech enthusiast interested in
                             <b className="purple"> Robotics, Electronics</b> and <b className="purple">Coding </b>.🤖📈
                             <br />
                             <br />
                             Inspired by the visionary<b className="purple"> Dr.APJ Abdul Kalam</b>, my dream is to revolutionize the application of Robotics and Intelligent Systems in <b Indian className="purple">Indian Space Programs</b>.
                             <br />
                             <br />
-                            Known among my peers for my<b className="purple"> creativity </b>and <b className="purple">analytical skills</b>, I thrive on developing innovative solutions to complex challenges.
+                            Known among my peers for my<b className="purple"> creativity </b>and <b className="purple">problem solving skills</b>, I thrive on developing innovative solutions to complex challenges.
                             <br />
                             <br />
                             In my free time, you'll find me exploring new skills, building exciting projects, hanging out with friends, or embarking on a solo ride.

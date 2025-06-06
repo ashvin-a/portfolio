@@ -562,7 +562,7 @@ button:focus {
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
-  transition: all 0.4s ease 0s !important;
+  transition: all 0.2s ease 0s !important;
   height: 100% !important;
   border-radius: 10px;
 }
