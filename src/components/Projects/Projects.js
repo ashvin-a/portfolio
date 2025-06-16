@@ -6,7 +6,8 @@ import assistant from '../../Assets/Projects/assistant.svg';
 import cubesat from '../../Assets/Projects/cubesat.gif';
 import slide_narrator from '../../Assets/Projects/slide-narrator.svg';
 import social_media from '../../Assets/Projects/social-media.svg';
-import ai_search from '../../Assets/Projects/ai-search.gif';
+import ai_search from '../../Assets/Projects/ai-search.svg';
+import ai_reviewer from '../../Assets/Projects/ai-reviewer.svg';
 
 function Projects() {
     return (
@@ -19,11 +20,22 @@ function Projects() {
                 <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
                     <Col md={4} className="project-card">
                         <ProjectCard
+                            imgPath={ai_reviewer}
+                            isBlog={false}
+                            title="AI Document Reviewer"
+                            description="Co-developed an AI-powered reviewing agent as per a client's requirement that efficiently analyzed client's technical documents—delivering human-level insights at a fraction of the cost. This work was done with my team at Qburst Technologies."
+                            demoLink=""
+                            // ghLink="Work Done as part of Qburst Technologies Pvt. Ltd."
+                        />
+                    </Col>
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
                             imgPath={ai_search}
                             isBlog={false}
                             title="AI Search Tool"
-                            description="Developed an AI search tool for retreiving data related to UN Women for their website. Used latest technologies like RAG and Natural language to SQL to implement it. This work was done with my team at Qburst Technologies."
-                            demoLink="https://open.unwomen.org/ai-search"
+                            description="Developed an AI search tool for retreiving data related to the client for their website. Used latest technologies like RAG and Natural language to SQL to implement it. This work was done with my team at Qburst Technologies."
+                            demoLink=""
                             // ghLink="Work Done as part of Qburst Technologies Pvt. Ltd."
                         />
                     </Col>
