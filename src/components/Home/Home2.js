@@ -18,7 +18,7 @@ function Home2() {
                             <b className="purple"> Robotics, Electronics</b> and <b className="purple">Coding </b>.🤖📈
                             <br />
                             <br />
-                            Inspired by the visionary<b className="purple"> Dr.APJ Abdul Kalam</b>, my dream is to revolutionize the application of Robotics and Intelligent Systems in <b Indian className="purple">Indian Space Programs</b>.
+                            Inspired by the visionary<b className="purple"> Dr.APJ Abdul Kalam</b>, my dream is to revolutionize the application of Robotics and Intelligent Systems in <b className="purple">Indian Space Programs</b>.
                             <br />
                             <br />
                             Known among my peers for my<b className="purple"> creativity </b>and <b className="purple">problem solving skills</b>, I thrive on developing innovative solutions to complex challenges.
