@@ -11,9 +11,10 @@ function AboutCard() {
             Kerala, India.
             <br/><br/>I completed my undergraduate in <span className="purple">Electrical & Electronics Engineering</span>
             &nbsp;from Government Engineering College, Barton Hill with a minor in <span className="purple">
-            Information Technology</span>. 
+            Information Technology</span>. Currently, I'm pursuing my master's degree in Electrical and Computer Engineering
+            from the <span className="purple">University of Wisconsin-Madison</span>.
             <br /><br/>
-            I am currently employed as an AI/ML engineer at <span className="purple">Qburst Technologies Pvt. Ltd</span>.
+            I've two years of work experience as an AI/ML engineer at <span className="purple">Qburst Technologies Pvt. Ltd</span>.
             A day of mine would include a lot of research, experimentation and testing out new methodologies
             and technologies to optimize performance.
             <br />

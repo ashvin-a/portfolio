@@ -23,7 +23,7 @@ function Projects() {
                             imgPath={ai_reviewer}
                             isBlog={false}
                             title="AI Document Reviewer"
-                            description="Co-developed an AI-powered reviewing agent as per a client's requirement that efficiently analyzed client's technical documents—delivering human-level insights at a fraction of the cost. This work was done with my team at Qburst Technologies."
+                            description="Developed an AI-powered reviewing agent as per a client's requirement that efficiently analyzed client's technical documents—delivering human-level insights at a fraction of the cost. This work was done with my team at Qburst Technologies."
                             demoLink=""
                             // ghLink="Work Done as part of Qburst Technologies Pvt. Ltd."
                         />
