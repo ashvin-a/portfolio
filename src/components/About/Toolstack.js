@@ -5,7 +5,7 @@ import {
   SiOpenai,
   SiMicrosoftazure,
   SiGitlab,
-  SiJira,
+  SiRos
 } from "react-icons/si";
 
 function Toolstack() {
@@ -15,7 +15,7 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJira />
+        <SiRos />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiOpenai />
