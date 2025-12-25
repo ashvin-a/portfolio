@@ -9,7 +9,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>   
         <Col md="12" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {year}</h3>
         </Col>
       </Row>
     </Container>

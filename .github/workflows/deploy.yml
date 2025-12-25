@@ -3,10 +3,10 @@ name: Deploy Portfolio 🚀
 on:
   push:
     branches:
-      - develop
+      - blah # (Turned it off)
   pull_request:
     branches:
-      - develop  # Trigger the workflow on pushes to the main branch
+      - blah  # Trigger the workflow on pushes to the main branch (Turned it off)
 permissions:
   pages: write
   id-token: write
