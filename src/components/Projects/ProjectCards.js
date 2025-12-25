@@ -7,6 +7,7 @@ import { BsGithub } from "react-icons/bs";
 function ProjectCards(props) {
   const showGitHubButton = !props.isBlog && props.ghLink;
   const showDemoButton = !props.isBlog && props.demoLink;
+  const showWebpageButton = props.isBlog && props.demoLink;
   return (
     <Card className="project-card-view">
       <div className="image-container">
@@ -29,14 +30,14 @@ function ProjectCards(props) {
           </Button>
         )}
 
-        {showGitHubButton && showDemoButton && (
+        {showWebpageButton && (
           <Button
             variant="primary"
             href={props.demoLink}
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
-            <CgWebsite /> &nbsp; Demo
+            <CgWebsite /> &nbsp; Website
             </Button>
         )}
       </Card.Body>
