@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import myImg from '../../Assets/rocket.svg';
 import { AiFillGithub, AiOutlineTwitter } from 'react-icons/ai';
+import { SiGooglescholar} from 'react-icons/si';
 import { FaLinkedinIn } from 'react-icons/fa';
 
 function Home2() {
@@ -14,11 +15,11 @@ function Home2() {
                             Welcome to my world of <span className="purple">Innovation</span> and <span className="purple">Creativity</span>!
                         </h1>
                         <p className="home-about-body">
-                            I'm a tech enthusiast interested in
-                            <b className="purple"> Robotics, Electronics</b> and <b className="purple">Coding </b>.🤖📈
+                            I'm a robotics engineer interested in
+                            <b className="purple"> Perception, Reinforcement Learning</b> and <b className="purple">Sim-to-Real Transfer </b>.🤖📈
                             <br />
                             <br />
-                            Inspired by the visionary<b className="purple"> Dr.APJ Abdul Kalam</b>, my dream is to revolutionize the application of Robotics and Intelligent Systems in <b Indian className="purple">Indian Space Programs</b>.
+                            Inspired by the visionary<b className="purple"> Dr.APJ Abdul Kalam</b>, my dream is to revolutionize the application of Robotics in <b className="purple">Indian Space Programs</b>.
                             <br />
                             <br />
                             Known among my peers for my<b className="purple"> creativity </b>and <b className="purple">problem solving skills</b>, I thrive on developing innovative solutions to complex challenges.
@@ -60,12 +61,22 @@ function Home2() {
                             </li>
                             <li className="social-icons">
                                 <a
-                                    href="https://www.linkedin.com/in/ashvin-a-261690199/"
+                                    href="https://www.linkedin.com/in/ashvin-anilkumar/"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
                                 >
                                     <FaLinkedinIn />
+                                </a>
+                            </li>
+                            <li className="social-icons">
+                                <a
+                                    href="https://scholar.google.com/citations?user=SA0MzSwAAAAJ&hl=en"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="icon-colour  home-social-icons"
+                                >
+                                    <SiGooglescholar />
                                 </a>
                             </li>
                         </ul>
