@@ -3,39 +3,31 @@ name: Deploy Portfolio 🚀
 on:
   push:
     branches:
-      - blah # (Turned it off)
-  pull_request:
-    branches:
-      - blah  # Trigger the workflow on pushes to the main branch (Turned it off)
+      - develop
+
 permissions:
-  pages: write
-  id-token: write
-  contents: read
-  
+  contents: write
+
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-
-    # strategy:
-    #     matrix:
-    #         node-version: [14.x, 16.x, 18.x]
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-    # Step 2: Set up Node.js
-    # - name: Set up Node.js ${{ matrix.node-version }}
-    - name: Set up Node.js 20
-      uses: actions/setup-node@v4
-      with:
-        node-version: 20
-        # cache: 'npm'
-    - name: Install Dependencies
-      run: npm ci
-    - name: Build Project
-      run: npm run build
-    - name: Upload artifacts 
-      uses: actions/upload-pages-artifact@v3
-      with:
-        name: 'portfolio'
-        path: build
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Build and Deploy to gh-pages
+        run: npm run deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
