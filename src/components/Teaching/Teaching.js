@@ -20,13 +20,13 @@ const teachingRoles = [
   },
 ];
 
-const mentorship = [
-  {
-    name: "Student / Group Name",
-    topic: "Project or research topic",
-    duration: "Month YYYY – Month YYYY",
-  },
-];
+// const mentorship = [
+//   {
+//     name: "Student / Group Name",
+//     topic: "Project or research topic",
+//     duration: "Month YYYY – Month YYYY",
+//   },
+// ];
 
 function Teaching() {
   return (
