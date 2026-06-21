@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Aboutcard from "./AboutCard";
-import robotimg from "../../Assets/robot.svg";
+import robotimg from "../../Assets/about.jpg";
 
 function About() {
   return (
@@ -28,7 +28,7 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={robotimg} alt="about" className="img-fluid" />
+            <img src={robotimg} alt="about" className="img-fluid" style={{ maxHeight: "550px", justifyContent:"center"}}/>
           </Col>
         </Row>
 
