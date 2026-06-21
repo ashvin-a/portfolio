@@ -824,3 +824,81 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+/* --------- */
+/* Publications */
+/* --------- */
+.publication-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  color: white !important;
+}
+
+.publication-entry {
+  border-left: 3px solid #FF6500;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.pub-title {
+  font-size: 1.1em;
+  color: #FF6500;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.pub-authors {
+  font-size: 0.95em;
+  color: #ccc;
+  margin-bottom: 4px;
+}
+
+.pub-venue {
+  font-size: 0.9em;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+.pub-links a {
+  color: #FF6500 !important;
+  text-decoration: none;
+  margin-left: 6px;
+}
+
+.pub-links a:hover {
+  text-decoration: underline;
+}
+
+/* --------- */
+/* Teaching */
+/* --------- */
+.teaching-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  color: white !important;
+}
+
+.teaching-subsection {
+  font-size: 1.6em;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* --------- */
+/* About - Research Interests */
+/* --------- */
+.research-interests-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.research-interests-list li {
+  padding: 12px 0 12px 20px;
+  border-left: 3px solid #FF6500;
+  margin-bottom: 16px;
+  font-size: 1.05em;
+  line-height: 1.6;
+}

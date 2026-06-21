@@ -12,20 +12,24 @@ function Home2() {
                 <Row>
                     <Col md={8} className="home-about-description">
                         <h1 style={{ fontSize: '2.6em' }}>
-                            Welcome to my world of <span className="purple">Innovation</span> and <span className="purple">Creativity</span>!
+                            Bridging the gap between <span className="purple">Simulation</span> and <span className="purple">Reality</span>
                         </h1>
                         <p className="home-about-body">
-                            I'm a robotics engineer interested in
-                            <b className="purple"> Perception, Reinforcement Learning</b> and <b className="purple">Sim-to-Real Transfer </b>.🤖📈
+                            I'm a robotics researcher and MS student at the
+                            <b className="purple"> University of Wisconsin–Madison</b>, working in the{" "}
+                            <b className="purple">Prediction-Action Laboratory</b> under Prof. Josiah Hanna.
                             <br />
                             <br />
-                            Inspired by the visionary<b className="purple"> Dr.APJ Abdul Kalam</b>, my dream is to revolutionize the application of Robotics in <b className="purple">Indian Space Programs</b>.
+                            My research focuses on{" "}
+                            <b className="purple">Robot Learning</b>,{" "}
+                            <b className="purple">Robotic Perception</b>, and{" "}
+                            <b className="purple">Sim-to-Real Transfer</b> — building autonomous systems
+                            that learn robust behaviors in simulation and deploy reliably in the physical world.
                             <br />
                             <br />
-                            Known among my peers for my<b className="purple"> creativity </b>and <b className="purple">problem solving skills</b>, I thrive on developing innovative solutions to complex challenges.
-                            <br />
-                            <br />
-                            In my free time, you'll find me exploring new skills, building exciting projects, hanging out with friends, or embarking on a solo ride.
+                            Inspired by the visionary <b className="purple">Dr. APJ Abdul Kalam</b>, I aspire
+                            to advance the application of intelligent robotics in{" "}
+                            <b className="purple">space exploration</b> and other high-stakes domains.
                             <br />
                             <br />
                         </p>

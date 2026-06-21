@@ -15,7 +15,7 @@ function Projects() {
             <Particle />
             <Container>
                 <h1 className="project-heading">
-                    Selected <strong className="purple">Works </strong>
+                    Research <strong className="purple">Projects </strong>
                 </h1>
                 <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
                     <Col md={4} className="project-card">

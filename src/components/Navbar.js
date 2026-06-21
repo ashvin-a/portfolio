@@ -4,8 +4,8 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import logo from '../Assets/logo_transparent.png';
 import { Link } from 'react-router-dom';
-import {AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineUser,AiOutlineTeam } from 'react-icons/ai';
-
+import { AiOutlineHome, AiOutlineUser, AiOutlineBook, AiOutlineRead } from 'react-icons/ai';
+import { MdOutlineBiotech } from 'react-icons/md';
 import { CgFileDocument } from 'react-icons/cg';
 
 function NavBar() {
@@ -53,14 +53,20 @@ function NavBar() {
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link as={Link} to="/project" onClick={() => updateExpanded(false)}>
-                                <AiOutlineFundProjectionScreen style={{ marginBottom: '2px' }} /> Projects
+                            <Nav.Link as={Link} to="/research" onClick={() => updateExpanded(false)}>
+                                <MdOutlineBiotech style={{ marginBottom: '2px' }} /> Research
                             </Nav.Link>
                         </Nav.Item>
-                        
+
                         <Nav.Item>
-                            <Nav.Link as={Link} to="/contribution" onClick={() => updateExpanded(false)}>
-                                <AiOutlineTeam style={{ marginBottom: '2px' }} /> Contributions
+                            <Nav.Link as={Link} to="/publications" onClick={() => updateExpanded(false)}>
+                                <AiOutlineBook style={{ marginBottom: '2px' }} /> Publications
+                            </Nav.Link>
+                        </Nav.Item>
+
+                        <Nav.Item>
+                            <Nav.Link as={Link} to="/teaching" onClick={() => updateExpanded(false)}>
+                                <AiOutlineRead style={{ marginBottom: '2px' }} /> Teaching
                             </Nav.Link>
                         </Nav.Item>
 
