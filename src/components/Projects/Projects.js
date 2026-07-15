@@ -2,12 +2,12 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
 import Particle from '../Particle';
+import on_robot_learning from '../../Assets/Projects/on-robot-learning.gif';
+import robocup from '../../Assets/Projects/robocup.jpeg';
+import visual_odometry from '../../Assets/Projects/visual-odometry.gif';
 import obst_avoidance from '../../Assets/Projects/obstacle-avoidance.svg';
-import cubesat from '../../Assets/Projects/cubesat.gif';
-import mpj_mark_3 from '../../Assets/Projects/mpj-mark-3.svg';
-import robocup from '../../Assets/Projects/robocup.jpg';
-import ai_search from '../../Assets/Projects/ai-search.svg';
-import ai_reviewer from '../../Assets/Projects/ai-reviewer.svg';
+import chrono_agentic from '../../Assets/Projects/chrono-rag.svg';
+import learn_rl from '../../Assets/Projects/learn-rl.gif';
 
 function Projects() {
     return (
@@ -20,11 +20,28 @@ function Projects() {
                 <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
                     <Col md={4} className="project-card">
                         <ProjectCard
+                            imgPath={on_robot_learning}
+                            isBlog={false}
+                            title="On-Robot Learning"
+                            description="Devised a curriculum for direct-on-robot policy training on NAO humanoids, bypassing sim-to-real transfer limitations and optimizing sample efficiency to train continuous control policies from scratch within a strict 20-minute wall-clock constraint. Deployed goal-conditioned RL policies for autonomous navigation and dynamic object manipulation. Advised by Prof. Josiah Hanna."
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
                             imgPath={robocup}
                             isBlog={true}
-                            title="Multiagent Coordination & Decision Making"
-                            description="Worked on developing the simulation and training gym environment for Booster T1 robots for participating in RoboCup Tournament. It is done under the guidance of Prof. Josiah Hanna. The work is currently in progress."
+                            title="RoboCup 2026"
+                            description="Engineered a decentralized multi-agent coordination stack using ROS 2 and deep reinforcement learning for a fleet of autonomous Booster K1s. Migrated simulation environments from Isaac Sim (PhysX) to MuJoCo, boosting training reliability by 40%, and developed a custom sim-to-real deployment pipeline that cut iterative hardware testing overhead by 20%. Advised by Prof. Josiah Hanna."
                             demoLink="https://pages.cs.wisc.edu/~jphanna/robocup.html"
+                        />
+                    </Col>
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            imgPath={visual_odometry}
+                            isBlog={false}
+                            title="Real-Time Visual Odometry using State Space Models"
+                            description="Benchmarked State Space Models (SSMs) for real-time visual odometry inference under strict compute constraints within a ROS/Gazebo environment. Built a simulation of a differential drive robot equipped with a monocular RGB camera and synthesized multi-modal datasets of sequential imagery and ground-truth trajectories via precise teleoperation."
+                            ghLink="https://github.com/ashvin-a/Visual-Odometry-Using-SSM"
                         />
                     </Col>
                     <Col md={4} className="project-card">
@@ -32,46 +49,26 @@ function Projects() {
                             imgPath={obst_avoidance}
                             isBlog={false}
                             title="Obstacle Avoidance & Detection"
-                            description="Designed and developed an obstacle avoidance and detection algorithm for a mars rover. This work was done as a member of Wisconsin Robotics."
+                            description="Designed a deterministic obstacle avoidance and detection pipeline for a Mars rover utilizing HOG feature extraction and SVM classification, as a member of Wisconsin Robotics. Profiled throughput and latency bottlenecks, accelerating execution via OpenMP multi-threading and custom CUDA kernels, achieving 8.4x and 33.5x speedups from the baseline, respectively."
                             ghLink="https://github.com/ashvin-a/WRover-Obstacle-Avoidance"
                         />
                     </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={ai_search}
+                            imgPath={chrono_agentic}
                             isBlog={false}
-                            title="AI Search Tool"
-                            description="Developed an AI search tool for retreiving data related to the client for their website. Used latest technologies like RAG and Natural language to SQL to implement it. This work was done with my team at Qburst Technologies."
-                            demoLink="https://open.unwomen.org/en/ai-search"
-                            // ghLink="Work Done as part of Qburst Technologies Pvt. Ltd."
+                            title="Chrono Agentic"
+                            description="Spearheaded the development of Chrono Agentic, an inference-time orchestration platform for building executable PyChrono simulations from natural language. Engineered deterministic agentic workflows within the PyChrono physics engine to automate complex simulation setups. Advised by Prof. Dan Negrut. Published in IEEE Access Proceedings (In Review)."
+                            ghLink="https://github.com/uwsbel/chrono-rag"
                         />
                     </Col>
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={ai_reviewer}
+                            imgPath={learn_rl}
                             isBlog={false}
-                            title="AI Document Reviewer"
-                            description="Developed an AI-powered reviewing agent as per a client's requirement that efficiently analyzed client's technical documents—delivering human-level insights at a fraction of the cost. This work was done with my team at Qburst Technologies."
-                            demoLink=""
-                            // ghLink="Work Done as part of Qburst Technologies Pvt. Ltd."
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={mpj_mark_3}
-                            isBlog={false}
-                            title="MPJ-Mark-3"
-                            description="Developed a RISC-V 5 stage pipelined microprocessor which includes features such as forwarding, rf bypassing, hazard detection, branch predictor and cache. This project was done with my team as a course requirement for ECE 552."
-                            ghLink="https://github.com/ashvin-a/RISC-V-Processor-MPJ"
-                        />
-                    </Col>
-                    <Col md={4} className="project-card">
-                        <ProjectCard
-                            imgPath={cubesat}
-                            isBlog={false}
-                            title="Attitude Determination and Control System of CubeSat"
-                            description="Developed an Attitude determination and Control System for a 1U Cubesat using triple axis magnetorquer."
-                            ghLink="https://github.com/Bartosat"
+                            title="Learn RL - A Reinforcement Learning Tutorial"
+                            description="A tutorial hand-tailored to cover basic concepts in reinforcement learning along with their implementations, encouraging a hands-on way of learning. Covers topics like PPO and SAC using libraries such as OpenAI Gym and Stable Baselines3, and physics engines such as MuJoCo."
+                            ghLink="https://github.com/ashvin-a/Learn-RL"
                         />
                     </Col>
                 </Row>
