@@ -1,12 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-
 const publications = [
   {
     title: "Sample Efficient On Robot Reinforcement learning ",
-    authors: ["Ashvin Anilkumar", "Ryan Gao","William Cong", "Nicholas Corrado", "Josiah P. Hanna"],
-    venue: "In Preparation",
+    authors: ["Ryan Gao","Ashvin Anilkumar", "William Cong", "Nicholas Corrado", "Josiah P. Hanna"],
+    venue: "Targeting ICRA",
     year: "2026",
     links: {
       project: "https://pages.cs.wisc.edu/~jphanna/robocup.html",
@@ -18,7 +17,17 @@ const publications = [
     venue: "In Preparation",
     year: "2026",
     links: {
-      project: "https://pages.cs.wisc.edu/~jphanna/robocup.html",
+      pdf: "https://drive.google.com/file/d/1lAGrTkgWA8ZGuWRWj7ayIcT67YbGelJD/view?usp=drive_link",
+      project: "https://github.com/uwsbel",
+    },
+  },
+  {
+    title: "Performance Analysis of State Space Models for Real-Time Visual Odometry",
+    authors: ["Ashvin Anilkumar"],
+    venue: "Conference on Robot Learning (CoRL)",
+    year: "2026",
+    links: {
+      pdf: "https://drive.google.com/file/d/1cOycChFU4y9ChY3HucPVrSV3KoPEemb_/view?usp=drive_link",
     },
   },
 ];

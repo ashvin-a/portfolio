@@ -39,19 +39,16 @@ function About() {
           <Col md={10}>
             <ul className="research-interests-list">
               <li>
-                <span className="purple">On Robot Learning</span> — creating sample efficient learning algorithms for robotic systems.
+                <span className="purple">Cross-Embodiment Robot Learning</span> — robot learning
+                and adaptation across diverse embodiments.
               </li>
               <li>
-                <span className="purple">Multi-Agent Reinforcement Learning</span> — coordination,
-                emergent behavior, and scalable training for teams of autonomous agents.
+                <span className="purple">Model-Based Reinforcement Learning</span> — and its
+                application on partially observable conditions.
               </li>
               <li>
-                <span className="purple">Sim-to-Real Transfer</span> — closing the reality gap
-                so policies trained in simulation deploy robustly on physical hardware.
-              </li>
-              <li>
-                <span className="purple">Robot Perception</span> — vision-based state estimation
-                and sensor fusion for real-world robotic systems.
+                <span className="purple">State Space Models</span> — in state estimation and
+                perception.
               </li>
             </ul>
           </Col>

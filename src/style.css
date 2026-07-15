@@ -836,6 +836,8 @@ button:focus {
 }
 
 .publication-entry {
+  position: relative;
+  z-index: 1;
   border-left: 3px solid #FF6500;
   padding-left: 20px;
   margin-bottom: 30px;
