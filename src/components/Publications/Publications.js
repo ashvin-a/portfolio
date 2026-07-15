@@ -18,7 +18,7 @@ const publications = [
     year: "2026",
     links: {
       pdf: "https://drive.google.com/file/d/1lAGrTkgWA8ZGuWRWj7ayIcT67YbGelJD/view?usp=drive_link",
-      project: "https://pages.cs.wisc.edu/~jphanna/robocup.html",
+      project: "https://github.com/uwsbel",
     },
   },
   {
