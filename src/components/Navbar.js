@@ -5,7 +5,6 @@ import Container from 'react-bootstrap/Container';
 import logo from '../Assets/logo_transparent.png';
 import { Link } from 'react-router-dom';
 import { AiOutlineHome, AiOutlineUser, AiOutlineBook, AiOutlineRead } from 'react-icons/ai';
-import { MdOutlineBiotech } from 'react-icons/md';
 import { CgFileDocument } from 'react-icons/cg';
 
 function NavBar() {
@@ -49,12 +48,6 @@ function NavBar() {
                         <Nav.Item>
                             <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
                                 <AiOutlineUser style={{ marginBottom: '2px' }} /> About
-                            </Nav.Link>
-                        </Nav.Item>
-
-                        <Nav.Item>
-                            <Nav.Link as={Link} to="/research" onClick={() => updateExpanded(false)}>
-                                <MdOutlineBiotech style={{ marginBottom: '2px' }} /> Research
                             </Nav.Link>
                         </Nav.Item>
 
