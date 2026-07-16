@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c16cce0e.css",
-    "main.js": "/portfolio/static/js/main.9d14c5ac.js",
+    "main.js": "/portfolio/static/js/main.772f3f2a.js",
     "static/js/770.074a10a6.chunk.js": "/portfolio/static/js/770.074a10a6.chunk.js",
     "static/js/453.6264690d.chunk.js": "/portfolio/static/js/453.6264690d.chunk.js",
     "static/media/on-robot-learning.gif": "/portfolio/static/media/on-robot-learning.81ec0e7469f3e175b6b3.gif",
@@ -17,12 +17,12 @@
     "index.html": "/portfolio/index.html",
     "static/media/infinite-spinner.svg": "/portfolio/static/media/infinite-spinner.eb050d9d3d38678b03ed.svg",
     "main.c16cce0e.css.map": "/portfolio/static/css/main.c16cce0e.css.map",
-    "main.9d14c5ac.js.map": "/portfolio/static/js/main.9d14c5ac.js.map",
+    "main.772f3f2a.js.map": "/portfolio/static/js/main.772f3f2a.js.map",
     "770.074a10a6.chunk.js.map": "/portfolio/static/js/770.074a10a6.chunk.js.map",
     "453.6264690d.chunk.js.map": "/portfolio/static/js/453.6264690d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c16cce0e.css",
-    "static/js/main.9d14c5ac.js"
+    "static/js/main.772f3f2a.js"
   ]
 }
