@@ -23,8 +23,8 @@ function Home2() {
                         <ProjectCard
                             imgPath={on_robot_learning}
                             isBlog={false}
-                            title="Model Free Reinforcement Learning for Partial Observable Markov Decision Processes"
-                            description="Devised a curriculum for direct-on-robot policy training on NAO humanoids, bypassing sim-to-real transfer limitations and optimizing sample efficiency to train continuous control policies from scratch within a strict 20-minute wall-clock constraint. Deployed goal-conditioned RL policies for autonomous navigation and dynamic object manipulation. Advised by Prof. Josiah Hanna."
+                            title="Recurrent State Space Model with Data-Driven RL for Partially Observable Conditions"
+                            description="Devised a learning algorithm for scoring a goal using SAC architecture with less than 50 expert demonstration and world model using a GRU with a recurrent state space model, bypassing sim-to-real transfer limitations and optimizing sample efficiency to train continuous control policies from scratch within a strict 20-minute wall-clock constraint. Advised by Prof. Josiah Hanna."
                         />
                     </Col>
                     <Col md={4} className="project-card">

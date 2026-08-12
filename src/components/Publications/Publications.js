@@ -24,7 +24,7 @@ const publications = [
   {
     title: "Performance Analysis of State Space Models for Real-Time Visual Odometry",
     authors: ["Ashvin Anilkumar"],
-    venue: "Conference on Robot Learning (CoRL)",
+    venue: "Preprint (Independent Research)",
     year: "2026",
     links: {
       pdf: "https://drive.google.com/file/d/1cOycChFU4y9ChY3HucPVrSV3KoPEemb_/view?usp=drive_link",
