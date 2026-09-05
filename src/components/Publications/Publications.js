@@ -12,7 +12,7 @@ const publications = [
     },
   },
   {
-    title: "Chrono Agentic: Evidence-Grounded Agents for Executable World Simulation",
+    title: "ChronoAgentic: A Code-based Multi-Agent World Simulator for Physically Grounded Simulation Construction",
     authors: ["Hongyu Wang", "Jingquan Wang", "Ashvin Anilkumar", "Bocheng Zou", "Radu Serban", "Dan Negrut"],
     venue: "arXiv preprint",
     year: "2026",
