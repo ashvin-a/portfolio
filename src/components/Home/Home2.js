@@ -58,8 +58,8 @@ function Home2() {
                         <ProjectCard
                             imgPath={chrono_agentic}
                             isBlog={false}
-                            title="Chrono Agentic"
-                            description="Spearheaded the development of Chrono Agentic, an inference-time orchestration platform for building executable PyChrono simulations from natural language. Engineered deterministic agentic workflows within the PyChrono physics engine to automate complex simulation setups. Advised by Prof. Dan Negrut. Published in IEEE Access Proceedings (In Review)."
+                            title="ChronoAgentic"
+                            description="Co-developed ChronoAgentic, a code-based multi-agent framework that compiles natural-language prompts into verifiable PyChrono simulations instead of latent video rollouts. Coordinated five specialized agents — planning, code generation, visual analysis, physics checking, and review — over a curated PyChrono skill library, a generative 3D asset pipeline, and retrieval across the simulator source, with an iterative repair loop that enforces physical constraints. Reached 82.5% full correctness (semantic and physical) on PhyWorldBench versus 52.5% for the strongest of 10 text-to-video baselines, and extended the system to interactive ROS-based driving in generated environments. Advised by Prof. Dan Negrut; available as arXiv preprint 2605.14398."
                             ghLink="https://github.com/uwsbel/chrono-rag"
                         />
                     </Col>
