@@ -14,10 +14,11 @@ const publications = [
   {
     title: "Chrono Agentic: Evidence-Grounded Agents for Executable World Simulation",
     authors: [ "Jingquan Wang","Hongyu Wang", "Andrew Negrut", "Ashvin Anilkumar", "Radu Serban", "Dan Negrut"],
-    venue: "In Preparation",
+    venue: "arXiv preprint",
     year: "2026",
     links: {
       pdf: "https://drive.google.com/file/d/1lAGrTkgWA8ZGuWRWj7ayIcT67YbGelJD/view?usp=drive_link",
+      arxiv: "https://arxiv.org/abs/2605.14398",
       project: "https://github.com/uwsbel",
     },
   },
